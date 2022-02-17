@@ -1,0 +1,21 @@
+/* Body font */
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+/* main font */
+main {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+/* expance side background color */
+.income {
+    background-color: #857676;
+
+}
+
+.expense-header {
+    color: #31A5AC;
+}
