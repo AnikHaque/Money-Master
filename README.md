@@ -1,5 +1,5 @@
 <h1>Money Calculator</h1>
-<h5>Live Site Link : <a href="https://moneymaster.netlify.app/">Click here</a></h5>
+<h5>Live Site Link : <a href="https://money-master-website.netlify.app/">Click here</a></h5>
 
 <h3>Features of this project:</h3>
 <ul>
