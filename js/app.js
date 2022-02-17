@@ -1,4 +1,3 @@
-console.log('Project connected')
 
 /* Data patch from input field */
 function updateAmount(inputField) {

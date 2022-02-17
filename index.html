@@ -34,77 +34,73 @@
             <div class="mx-8 mt-4 mb-8 antialiased ">
                 <div class="md:flex">
                     <!-- Expanses image start -->
-                    <div class=" lg:w-3/4 lg:m-8 lg:px-8 md:m-4 md:px4 md:w-full  ">
+                <div class=" lg:w-3/4 lg:m-8 lg:px-8 md:m-4 md:px4 md:w-full  ">
                         <img class=" w-full h-full object-cover md:w-full lg:w-full " src="https://money-master-usukuk.netlify.app/images/money.jpg"
                             alt="">
-                    </div>
+                </div>
                     <!-- Expanses image End -->
                     <!-- Expanses Calculations Sections Start-->
-                    <div class=" lg:w-2/4 lg:m-8 lg:p-8 md:w-full md:mx-8 md:p-8 sm:my-8 md:mt-8 text-center income">
+                <div class=" lg:w-2/4 lg:m-8 lg:p-8 md:w-full md:mx-8 md:p-8 sm:my-8 md:mt-8 text-center income">
 
-                        <!-- Error text -->
-                        <span id="error-text" class="hidden text-red-500 text-center">Please enter valid and
-                            positive number!!!</span>
+                    <!-- Error text -->
+                <span id="error-text" class="hidden text-red-500 text-center">Please enter valid and positive number!!!</span>
 
-                        <h1 class="text-center my-2 font-bold py-4">Income</h1>
-                        <div>
-                            <span>
-                                <div class="space-x-2 mb-2 mr-6">
-                                    <label for="income" class="">Income:</label>
-                                    <input id="income"
-                                        class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded "
-                                        type="text">
-                                </div>
-                                <div>
-                                    <h1 class="font-bold text-center mb-2">Expenses</h1>
-                                    <div class="space-x-2 mb-3">
-                                        <label for="food" class="">Food:</label>
-                                        <input id="food" class="w-2/4  px-3 py-1 focus:outline-none border border-sky-500
-                                            rounded" type="text">
-                                    </div>
-                                    <div class="space-x-2 mb-3">
-                                        <label for="rent" class="">Rent:</label>
-                                        <input id="rent"
-                                            class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded"
-                                            type="text">
-                                    </div>
-                                    <div class="space-x-2 mb-3 mr-[40px]">
-                                        <label for="clothes" class="">Clothes:</label>
-                                        <input id="clothes"
-                                            class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded"
-                                            type="text">
-                                    </div>
-                                    <button id="calculate-btn"
-                                        class="py-2 px-[40px] mb-2 font-medium bg-rose-800 rounded text-white">Calculate
-                                    </button>
+                <h1 class="text-center my-2 font-bold py-4">Income</h1>
+                <div>
+                <span>
+                <div class="space-x-2 mb-2 mr-6">
+                <label for="income" class="">Income:</label>
+                <input id="income"
+                class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded "
+                type="text">
+                </div>
+                <div>
+                <h1 class="font-bold text-center mb-2">Expenses</h1>
+                <div class="space-x-2 mb-3">
+                <label for="food" class="">Food:</label>
+                <input id="food" class="w-2/4  px-3 py-1 focus:outline-none border border-sky-500 rounded" type="text">
+                </div>
+                <div class="space-x-2 mb-3">
+                <label for="rent" class="">Rent:</label>
+                <input id="rent"
+                class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded"
+                type="text">
+                </div>
+                <div class="space-x-2 mb-3 mr-[40px]">
+                <label for="clothes" class="">Clothes:</label>
+                <input id="clothes"
+                class="w-2/4 px-3 py-1 focus:outline-none border border-sky-500 rounded"
+                type="text">
+                </div>
+                <button id="calculate-btn"
+                class="py-2 px-[40px] mb-2 font-medium bg-rose-800 rounded text-white">Calculate
+                </button>
 
-                                    <!-- Error text -->
-                                    <span id="over-cost" class="hidden text-red-500 text-center">You have no enough
-                                        money for Expanse!!!</span>
-                                    <h1 class=" mb-3 font-bold text-center">Total Expanses: <span
-                                            id="total-expanses">00</span></h1>
-                                    <h1 class=" mb-3 font-bold text-center">Balance: <span id="balance">00</span></h1>
-                                </div>
-                                <div>
-                                    <div class="space-x-3 mb-3">
-                                        <label for="save" class="">Save:</label>
-                                        <input id="save" class="w-1/4 px-3 py-2 focus:outline-none rounded" type="text">
-                                        <span>%</span>
-                                        <button id="save-btn" class="py-2 px-6 font-medium bg-rose-800 rounded
-                                            text-white">Save</button>
-                                    </div>
+                 <!-- Error text -->
+                <span id="over-cost" class="hidden text-red-500 text-center">You have no enough money for Expanse!!!</span>
+                <h1 class=" mb-3 font-bold text-center">Total Expanses: <span
+                id="total-expanses">00</span></h1>
+                <h1 class=" mb-3 font-bold text-center">Balance: <span id="balance">00</span></h1>
+                </div>
+                <div>
+                <div class="space-x-3 mb-3">
+                <label for="save" class="">Save:</label>
+                <input id="save" class="w-1/4 px-3 py-2 focus:outline-none rounded" type="text">
+                <span>%</span>
+                <button id="save-btn" class="py-2 px-6 font-medium bg-rose-800 rounded
+                text-white">Save</button>
+                </div>
 
-                                    <!-- Error text -->
-                                    <span id="over-save" class="hidden text-red-500 text-center">You have no enough
-                                        money for saving</span>
-                                    <h1 class="font-bold text-center" r>Saving Amount: <span
-                                            id="saving-amount">00</span></h1>
-                                    <h1 class="font-bold text-center">Remaining Balance: <span
-                                            id="remaining-balance">00</span></h1>
-                                </div>
-                            </span>
-                        </div>
-                    </div>
+                    <!-- Error text -->
+                <span id="over-save" class="hidden text-red-500 text-center">You have no enough money for saving</span>
+                <h1 class="font-bold text-center" r>Saving Amount: <span
+                id="saving-amount">00</span></h1>
+                <h1 class="font-bold text-center">Remaining Balance: <span
+                id="remaining-balance">00</span></h1>
+                </div>
+                </span>
+                </div>
+                </div>
                     <!-- Expanses Calculations Sections End-->
                 </div>
             </div>
